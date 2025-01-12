@@ -1,0 +1,18 @@
+{
+  "recommendations": [
+    "alefragnani.bookmarks",
+    "dioxuslabs.dioxus",
+    "rust-lang.rust-analyzer",
+    "patbenatar.advanced-new-file",
+    "fill-labs.dependi",
+    "tamasfe.even-better-toml",
+    "christian-kohler.path-intellisense",
+    "wayou.vscode-todo-highlight",
+    "bradlc.vscode-tailwindcss",
+    "dbankier.vscode-quick-select",
+    "usernamehw.errorlens",
+    "vscodevim.vim",
+    "github.copilot-chat",
+    "simonsiefke.svg-preview"
+  ]
+}

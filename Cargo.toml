@@ -1,0 +1,32 @@
+[package]
+name = "dioxus-simple-pdf-tools"
+version = "0.1.0"
+authors = ["tawansongsang <tawansongsang.k@gmail.com>"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chrono = "0.4.39"
+dioxus = { version = "0.6.1", features = ["router", "fullstack"] }
+lopdf = "0.34.0"
+regex = "1.11.1"
+web-sys = { version = "0.3.76", features = ["Blob", "BlobPropertyBag", "Url"] }
+
+[features]
+default = ["web"]
+web = ["dioxus/web"]
+desktop = ["dioxus/desktop"]
+mobile = ["dioxus/mobile"]
+
+[profile]
+
+[profile.wasm-dev]
+inherits = "dev"
+opt-level = 1
+
+[profile.server-dev]
+inherits = "dev"
+
+[profile.android-dev]
+inherits = "dev"
