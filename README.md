@@ -2,6 +2,9 @@
 
 Simple Pdf Tools Web Application using Dioxus
 
+## Todo
+- [ ] rewrite pdf split function
+
 ## Development
 
 Your new jumpstart project includes basic organization with an organized `assets` folder and a `components` folder. 
